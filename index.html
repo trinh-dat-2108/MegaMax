@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaMax</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a href="#" class="logo">MegaMax</a>
+                <div class="search-bar">
+                    <button><i class="fas fa-search"></i></button>
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Tài khoản</span>
+                    </button>
+                    <button class="action-btn cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Giỏ hàng</span>
+                        <span class="cart-count"></span>
+                    </button>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Groceries</a></li>
+                    <li><a href="#">Premium Fruits</a></li>
+                    <li><a href="#">Home&Kitchen</a></li>
+                    <li><a href="#">Fashtion</a></li>
+                    <li><a href="#">Electronirc</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Home Improverment</a></li>
+                    <li><a href="#">Sport</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide hero-slide" style="background: linear-gradient(135deg, #2563eb, #1d4ed8);">
+                <div class="container">
+                    <h1>Khám phá thế giới mua sắm trực tuyến</h1>
+                    <p>Tìm kiếm sản phẩm chất lượng với giá tốt nhất. Giao hàng nhanh chóng và dịch vụ khách hàng tuyệt vời.</p>
+                    <a href="#" class="btn btn-primary">Mua sắm ngay</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide hero-slide" style="background: linear-gradient(135deg, #dc2626, #ea580c);">
+                <div class="container">
+                    <h1>Siêu sale cuối năm</h1>
+                    <p>Giảm giá lên đến 70% cho tất cả sản phẩm. Cơ hội mua sắm với giá tốt nhất trong năm.</p>
+                    <a href="#" class="btn btn-primary">Khám phá ngay</a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide hero-slide" style="background: linear-gradient(135deg, #059669, #047857);">
+                <div class="container">
+                    <h1>Miễn phí vận chuyển</h1>
+                    <p>Áp dụng cho tất cả đơn hàng từ 500.000đ. Giao hàng nhanh trong 2 giờ tại nội thành.</p>
+                    <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+
+    <!-- Featured Products Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Grab the best deal on <span>Smartphones</span></h2>
+               <a href="#" class="view-all-btn">View All <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300" alt="iPhone 14 Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">iPhone 14 Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="product-price">24.990.000₫</div>
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300" alt="MacBook Air M2">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">MacBook Air M2</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="product-price">32.990.000₫</div>
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300" alt="AirPods Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">AirPods Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="product-price">6.990.000₫</div>
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300" alt="Apple Watch Series 8">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Apple Watch Series 8</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="product-price">11.990.000₫</div>
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                 <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300" alt="Apple Watch Series 8">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Apple Watch Series 8</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="product-price">11.990.000₫</div>
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>MegaMax</h3>
+                    <p>Địa chỉ: 123 Đường ABC,xa xx,NinhBinh</p>
+                    <p>Email: contact@megamax.vn</p>
+                    <p>Điện thoại: 6666 8888</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Thông tin</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Tài khoản</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li><a href="#">Đăng ký</a></li>
+                        <li><a href="#">Giỏ hàng</a></li>
+                        <li><a href="#">Danh sách yêu thích</a></li>
+                        <li><a href="#">Theo dõi đơn hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Dịch vụ khách hàng</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Trung tâm hỗ trợ</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ShopEase. Tất cả các quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    // Initialize Hero Swiper
+    const heroSwiper = new Swiper('.hero-swiper', {
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        speed: 800,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+</html>
