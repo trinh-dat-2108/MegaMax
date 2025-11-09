@@ -19,8 +19,8 @@
 }
 
 body {
-    overflow-x: hidden;  /* Chặn scroll ngang */
-    overflow-y: auto;    /* Cho phép scroll dọc */
+    overflow-x: hidden;
+    overflow-y: auto;   
     width: 100%;
     height: 100%;
 }
@@ -213,7 +213,7 @@ nav {
   min-height: 500px;
   color: #fff;
   border-radius: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Background mặc định */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
   padding: 60px;
   overflow: hidden;
 }
@@ -324,7 +324,7 @@ nav {
   }
 }
 
-/* Nút điều hướng tròn, căn giữa */
+
 .swiper-button-prev,
 .swiper-button-next {
   width: 45px;
@@ -342,7 +342,7 @@ nav {
   background: rgba(255, 255, 255, 0.4);
 }
 
-/* Pagination trắng */
+
 .swiper-pagination-bullet {
   background: #fff;
 }
@@ -382,25 +382,25 @@ nav {
 
 .product-image {
     height: 200px;
-    background-color: #ffffff; /* Đổi thành trắng */
+    background-color: #ffffff; 
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-bottom: 1px solid #f0f0f0; /* Đường phân cách */
+    border-bottom: 1px solid #f0f0f0; 
 }
 
 .product-image img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Đổi từ cover sang contain để hiển thị toàn bộ ảnh */
-    max-width: 150px; /* Giới hạn kích thước tối đa */
+    object-fit: contain; 
+    max-width: 150px; 
     max-height: 150px;
     transition: transform 0.3s ease;
 }
 
 .product-card:hover .product-image img {
-    transform: scale(1.1); /* Hiệu ứng zoom khi hover */
+    transform: scale(1.1); 
 }
 
 .product-info {
@@ -410,8 +410,8 @@ nav {
 .product-title {
     font-weight: 600;
     margin-bottom: 8px;
-    font-size: 14px; /* Thêm font-size cố định */
-    height: 40px; /* Cố định chiều cao */
+    font-size: 14px; 
+    height: 40px; 
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -427,7 +427,7 @@ nav {
 .product-rating {
     color: #fbbf24;
     margin-bottom: 12px;
-    font-size: 14px; /* Cố định kích thước sao */
+    font-size: 14px; 
 }
 
 .add-to-cart {
@@ -601,12 +601,12 @@ footer {
     }
 
     .hero-slide {
-        min-height: 300px; /* Giảm từ 500px xuống 300px */
-        padding: 30px 20px; /* Giảm padding */
+        min-height: 300px; 
+        padding: 30px 20px; 
     }
 
     .hero h1 {
-        font-size: 28px; /* Giảm kích thước chữ */
+        font-size: 28px; 
         line-height: 1.2;
         margin-bottom: 10px;
     }
@@ -622,7 +622,7 @@ footer {
     }
 
     .hero-image {
-        max-height: 200px; /* Giảm kích thước ảnh */
+        max-height: 200px;
     }
 
     .products {
